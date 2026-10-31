@@ -4,9 +4,6 @@ A production-style data engineering project, built step by step to practise
 real-world workflows: Python ingestion, Databricks lakehouse, dbt
 transformations, Airflow orchestration, testing, and CI/CD.
 
-## Why this project
-[2–3 sentences in your own words: what you want to learn and practise,
-and why you're building it like a team would — issues, branches, PRs, reviews.]
 
 ## Architecture (planned)
 
