@@ -20,7 +20,7 @@ transformations, Airflow orchestration, testing, and CI/CD.
 - **Data quality:** dbt tests at each layer
 
 ## Data source
-[Name of the API, what data it provides, and how often it updates.]
+Data: Energy-Charts.info, licensed under CC BY 4.0
 
 ## Tech stack
 - Python 3.12, managed with [uv](https://docs.astral.sh/uv/)
@@ -58,7 +58,7 @@ uv run pytest
 
 ## Roadmap
 - [x] Project setup (uv, repo structure, branch protection)
-- [ ] API extractor + unit tests
+- [x] API extractor + unit tests
 - [ ] Load raw data into Databricks (bronze layer)
 - [ ] dbt silver and gold models + data tests
 - [ ] Airflow DAG orchestrating ingestion and dbt, with retries and failure alerts
