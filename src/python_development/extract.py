@@ -21,6 +21,7 @@ def save_country_date(data: dict, country: str, date: str, base_dir: Path = Path
 
     with open(file_path, "w", encoding="utf-8") as f :
         json.dump(data, f, indent=4)
+        # pass
 
     return file_path 
 
